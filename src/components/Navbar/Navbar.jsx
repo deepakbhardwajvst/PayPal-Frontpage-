@@ -1,11 +1,11 @@
+"use client"
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
-
-import Button from "./Button";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import Menu from "./Menu";
 import Logo from './../Logo/Logo';
+import Link from "next/link";
+import ButtonOne from "../ButtonOne/ButtonOne";
+import Menu from "../Menu/Menu";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleClick = () => {
@@ -26,17 +26,17 @@ const Navbar = () => {
             {/* Logo */}
             <Logo />
           </div>
-          <div className="navigations hidden ml-8 lg:flex gap-8 items-center text-[#001c64]">
+          <div className="navigations hidden ml-8 lg:flex gap-8 font-medium items-center text-[#353f52]">
             {/* All Navigations */}
-            <NavLink>Personal</NavLink>
-            <NavLink>Business</NavLink>
-            <NavLink>Developer</NavLink>
-            <NavLink>Help</NavLink>
+            <Link href="#">Personal</Link>
+            <Link href="#">Business</Link>
+            <Link href="#">Developer</Link>
+            <Link href="#">Help</Link>
           </div>
         </div>
-        <div className="flex gap-3 items-center text-xs sm:text-sm lg:text-base">
-          <Button>My PayPal</Button>
-          <Button>Log out</Button>
+        <div className="flex gap-3 items-center text-xs sm:text-sm  lg:text-base">
+          <ButtonOne>My PayPal</ButtonOne>
+          <ButtonOne>Log out</ButtonOne>
           <div
             onClick={handleClick}
             className="lg:hidden cursor-pointer h-10 w-10 grid place-items-center rounded-full duration-300 ease-in-out text-darkBlue border border-transparent hover:border-[#e6e0d9]"

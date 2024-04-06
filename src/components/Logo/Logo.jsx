@@ -1,20 +1,20 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
-import { NavLink } from "react-router-dom";
+
 
 const Logo = () => {
   return (
-    <NavLink to="/">
+    <Link href="/">
       <Image
-        className="h-[2.25rem]"
+        className="h-[2.25rem] w-auto" 
         src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-mark-color.svg"
-        height={480}
-        width={480}
-        loading="lazy"
+        width={500}
+        height={500}
+        priority
         alt="Logo"
-      /> 
-      
-    </NavLink>
+      />
+    </Link>
   );
 };
 
