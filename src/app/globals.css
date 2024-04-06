@@ -7,3 +7,9 @@ body {
  box-sizing: border-box
 }
 
+Button:hover{
+    background: inherit;
+    color: inherit;
+    border: 1px solid inherit;
+
+}

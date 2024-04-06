@@ -1,9 +1,13 @@
-import Image from "next/image";
+import HeroSection from "@/components/HeroSection/HeroSection";
+
 
 export default function Home() {
   return (
-   <>
-   
-   </>
+    <div className=" max-w-[1400px] mx-auto ">
+      <div className="mx-8 p-2 flex flex-col gap-8">
+        <HeroSection />
+     
+      </div>
+    </div>
   );
 }
