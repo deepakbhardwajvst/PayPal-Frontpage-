@@ -35,8 +35,8 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex gap-3 items-center text-xs sm:text-sm  lg:text-base">
-          <ButtonOne>My PayPal</ButtonOne>
-          <ButtonOne>Log out</ButtonOne>
+          <ButtonOne>Log In</ButtonOne>
+          <ButtonOne>Sign Up</ButtonOne>
           <div
             onClick={handleClick}
             className="lg:hidden cursor-pointer h-10 w-10 grid place-items-center rounded-full duration-300 ease-in-out text-darkBlue border border-transparent hover:border-[#e6e0d9]"
