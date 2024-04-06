@@ -5,7 +5,7 @@ const ButtonOne = ({ children, type = "primary", onClickHandler }) => {
     <Button
       variant="outlined"
       onClick={onClickHandler}
-      className={`py-1 px-3 sm:px-6  font-medium whitespace-nowrap rounded-3xl border-2 border-darkBlue hover:border-lightBlue ${
+      className={`py-1 px-3 sm:px-6 hover:text-darkBlue  font-semibold whitespace-nowrap rounded-3xl border-2 border-darkBlue  ${
         children == "Log In"
           ? "bg-white text-blue-700"
           : " bg-blue-700 text-white"
