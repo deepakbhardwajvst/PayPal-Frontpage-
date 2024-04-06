@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "./Logo";
+
 import Button from "./Button";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import Menu from "./Menu";
+import Logo from './../Logo/Logo';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleClick = () => {
