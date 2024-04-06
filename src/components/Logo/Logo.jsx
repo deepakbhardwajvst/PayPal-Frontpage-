@@ -12,7 +12,8 @@ const Logo = () => {
         width={480}
         loading="lazy"
         alt="Logo"
-      />
+      /> 
+      
     </NavLink>
   );
 };
