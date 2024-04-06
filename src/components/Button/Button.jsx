@@ -1,5 +1,5 @@
 import React from "react";
-
+import Button from "@mui/material/Button";
 const ButtonOne = ({ children, type = "primary", onClickHandler }) => {
   return (
     <Button
