@@ -6,6 +6,11 @@ import ApprovalCard from "@/components/ApprovalCard/ApprovalCard";
 import Orchestration from "@/components/Orchestration/Orchestration";
 import ManageRisk from "@/components/ManageRisk/ManageRisk";
 import ModularSol from "@/components/ModularSol/ModularSol";
+import VideoCard from "@/components/VideoCard/VideoCard";
+import CMO from "@/components/CMO/CMO";
+import Integration from "@/components/Integration/Integration";
+import Contact from "@/components/Contact/Contact";
+import Quotes from "@/components/Quotes/Quotes";
 export default function Home() {
   return (
     <div className=" max-w-[1400px] mx-auto ">
@@ -44,6 +49,22 @@ export default function Home() {
       </div>
       <div className="mt-20">
         <ModularSol />
+      </div>
+      <div className="flex flex-col ">
+        <VideoCard /> 
+      </div>
+      <div className="mt-20">
+        <CMO />
+      </div>
+      <div className="flex mx-8 flex-col gap-8">
+        <Integration />
+      </div>
+      <div className="mt-20 ">
+        <Contact />
+      </div>
+      <div className="flex mx-8  flex-col gap-8">
+        <Quotes />
+      
       </div>
     </div>
   );
