@@ -5,12 +5,14 @@ import WhyPaypal from "@/components/WhyPaypal/WhyPaypal";
 export default function Home() {
   return (
     <div className=" max-w-[1400px] mx-auto ">
+      <div className=" bg-zinc-200 shadow h-[1px]"></div>
       <div className="mx-8 p-2 flex flex-col gap-8">
-        <HeroSection />
-        <Stats />
-        <PayMethods />
+        <Hero />
+        <PaypalStats />
+        <PaypalPayMethods />
         <WhyPaypal />
       </div>
+      
     </div>
   );
 }
