@@ -25,6 +25,15 @@ function ManageRisk() {
               <FaArrowRight />
             </span>
           </div>
+          <div className="mx-8 p-2 flex flex-col gap-8">
+            <WhyPaypal />
+            <div className=" flex font-semibold text-blue-600 text-wrap">
+              About Fraud Protection
+              <div className="m-1">
+                <FaArrowRight />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
