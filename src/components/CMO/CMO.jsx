@@ -1,6 +1,5 @@
 import React from "react";
 import { FaQuoteLeft } from "react-icons/fa";
-import img2 from "../../assets/img2.jpg";
 function CMO() {
   return (
     <div className="w-full h-full bg-blue-950 mt-48 max-md:20 flex relative ">
@@ -22,7 +21,7 @@ function CMO() {
           <div>Samsonite</div>
         </div>
         <div className="md:absolute md:w-1/2 -top-8 right-0">
-          <img src={img2} alt="" className="md:w-10/12 rounded" />
+          <img src="/img2.jpg" alt="" className="md:w-10/12 rounded" />
         </div>
       </div>
     </div>

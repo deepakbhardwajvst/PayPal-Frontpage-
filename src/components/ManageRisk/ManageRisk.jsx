@@ -1,5 +1,5 @@
 import React from "react";
-import img2 from "../assets/img2.jpg";
+
 import { FaArrowRight } from "react-icons/fa";
 
 function ManageRisk() {
@@ -7,7 +7,7 @@ function ManageRisk() {
     <div className="h-full w-full bg-gray-100 p-6">
       <div className="flex max-md:flex-col ">
         <div className="p-10 px-12 md:w-1/2">
-          <img src={img2} alt="img2" className="rounded-xl" />
+          <img src="/img2.jpg" alt="img2" className="rounded-xl" />
         </div>
         <div className="flex flex-col justify-center md:w-1/2 p-6">
           <div className="text-2xl font-bold text-gray-800">

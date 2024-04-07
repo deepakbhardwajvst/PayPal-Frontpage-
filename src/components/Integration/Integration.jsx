@@ -1,5 +1,5 @@
 import React from "react";
-import img2 from "../../assets/img2.jpg";
+
 import { FaArrowRight } from "react-icons/fa";
 function Integration() {
   return (
@@ -40,7 +40,7 @@ function Integration() {
         <hr className="h-px bg-gray-400 border-0" />
         <div className="flex gap-8 max-md:flex-col">
           <div className="md:w-1/3 ">
-            <img src={img2} alt="img2" />
+            <img src="/img2.jpg" alt="img2" />
           </div>
           <div className="flex flex-col gap-4 p-4 ">
             <div className="font-bold text-xl text-gray-800">

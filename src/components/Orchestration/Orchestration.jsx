@@ -1,6 +1,4 @@
 import React from "react";
-import img2 from "../assets/img2.jpg";
-
 function Orchestration() {
   return (
     <div className="h-full w-full mt-48 max-md:mt-20">
@@ -17,7 +15,7 @@ function Orchestration() {
           </div>
         </div>
         <div className="md:p-10  max-md:p-4 md:px-10 md:w-1/2">
-          <img src={img2} alt="img2" className="rounded-xl" />
+          <img src="/img2.jpg" alt="img2" className="rounded-xl" />
         </div>
       </div>
     </div>

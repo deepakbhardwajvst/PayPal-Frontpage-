@@ -22,114 +22,114 @@ function ModularSol() {
           </div>
         </div>
         <div className="md:w-6/12">
-          <div class=" md:relative  ">
-            <table class="w-full shadow-xl table-auto  rounded-md md:absolute   md:p-6 text-sm text-left text-gray-800  ">
+          <div className=" md:relative  ">
+            <table className="w-full shadow-xl table-auto  rounded-md md:absolute   md:p-6 text-sm text-left text-gray-800  ">
               <tbody className="">
-                <tr class="bg-white  border-b border-gray-300 ">
+                <tr className="bg-white  border-b border-gray-300 ">
                   <th
                     scope="row"
-                    class="px-6 py-4  font-bold text-xl  whitespace-nowrap text-gray-700"
+                    className="px-6 py-4  font-bold text-xl  whitespace-nowrap text-gray-700"
                   >
                     Accept payments
                   </th>
 
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <TiTick className=" fill-emerald-800 bg-emerald-200 text-xl rounded-full" />
                   </td>
                 </tr>
-                <tr class="bg-white border-b  border-gray-300">
+                <tr className="bg-white border-b  border-gray-300">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
+                    className="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
                   >
                     Make payouts
                   </th>
 
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <TiTick className=" fill-emerald-800 bg-emerald-200 text-xl rounded-full" />
                   </td>
                 </tr>
-                <tr class="bg-white border-b  border-gray-300">
+                <tr className="bg-white border-b  border-gray-300">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
+                    className="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
                   >
                     Manage risk
                   </th>
 
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <TiTick className=" fill-emerald-800 bg-emerald-200 text-xl rounded-full" />
                   </td>
                 </tr>
-                <tr class="bg-white border-b  border-gray-300">
+                <tr className="bg-white border-b  border-gray-300">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
+                    className="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
                   >
                     Fraud protection
                   </th>
 
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <TiTick className=" fill-emerald-800 bg-emerald-200 text-xl rounded-full" />
                   </td>
                 </tr>
-                <tr class="bg-white border-b  border-gray-300">
+                <tr className="bg-white border-b  border-gray-300">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
+                    className="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
                   >
                     Reporting
                   </th>
 
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <TiTick className=" fill-emerald-800 bg-emerald-200 text-xl rounded-full" />
                   </td>
                 </tr>
-                <tr class="bg-white border-b  border-gray-300">
+                <tr className="bg-white border-b  border-gray-300">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
+                    className="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
                   >
                     Compliance
                   </th>
 
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <TiTick className=" fill-emerald-800 bg-emerald-200 text-xl rounded-full" />
                   </td>
                 </tr>
-                <tr class="bg-white border-b  border-gray-300">
+                <tr className="bg-white border-b  border-gray-300">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
+                    className="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
                   >
                     Developer tools
                   </th>
 
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <TiTick className=" fill-emerald-800 bg-emerald-200 text-xl rounded-full" />
                   </td>
                 </tr>
-                <tr class="bg-white border-b  border-gray-300">
+                <tr className="bg-white border-b  border-gray-300">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
+                    className="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
                   >
                     Customer support
                   </th>
 
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <TiTick className=" fill-emerald-800 bg-emerald-200 text-xl rounded-full" />
                   </td>
                 </tr>
-                <tr class="bg-white border-b  border-gray-300">
+                <tr className="bg-white border-b  border-gray-300">
                   <th
                     scope="row"
-                    class="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
+                    className="px-6 py-4 font-bold text-xl text-gray-700 whitespace-nowrap  "
                   >
                     Pricing and fees
                   </th>
 
-                  <td class="px-6 py-4">
+                  <td className="px-6 py-4">
                     <TiTick className=" fill-emerald-800 bg-emerald-200 text-xl rounded-full" />
                   </td>
                 </tr>

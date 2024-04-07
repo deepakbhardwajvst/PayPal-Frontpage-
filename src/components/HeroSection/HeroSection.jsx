@@ -25,19 +25,19 @@ function Hero() {
         </Button>
       </div>
       <div className="mt-16 bg-gray-100 max-md:p-4 rounded-xl">
-        <div class="mt-3  flex -space-x-2 relative flex-wrap max-md:gap-4 max-md:justify-center ">
+        <div className="mt-3  flex -space-x-2 relative flex-wrap max-md:gap-4 max-md:justify-center ">
           <img
-            class="inline-block w-7/12  rounded-xl hover:scale-105 hover:z-10 transition duration-500 ease-in-out"
+            className="inline-block w-7/12  rounded-xl hover:scale-105 hover:z-10 transition duration-500 ease-in-out"
             src="/img1.jpg"
             alt=""
           />
           <img
-            class="inline-block w-8/12 shadow-xl -top-7 rounded-xl md:absolute right-20 hover:z-10 hover:scale-105 transition duration-500 ease-in-out"
+            className="inline-block w-8/12 shadow-xl -top-7 rounded-xl md:absolute right-20 hover:z-10 hover:scale-105 transition duration-500 ease-in-out"
             src="/img2.jpg"
             alt=""
           />
           <div className=" bg-white shadow-xl p-4 md:absolute right-10 rounded-xl -top-10 flex gap-5  flex-col  hover:scale-105 transition duration-500 ease-in-out  md:w-6/12">
-            <img class="rounded-xl" src="/img3.jpg" alt="" className="" />
+            <img className="rounded-xl" src="/img3.jpg" alt="" />
             <div className="flex justify-between p-2">
               <div className="text-gray-400  font-medium text-wrap text-xl">
                 Speckled bowl set

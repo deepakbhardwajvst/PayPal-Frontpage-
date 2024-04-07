@@ -11,6 +11,7 @@ import CMO from "@/components/CMO/CMO";
 import Integration from "@/components/Integration/Integration";
 import Contact from "@/components/Contact/Contact";
 import Quotes from "@/components/Quotes/Quotes";
+import { FaArrowRight } from "react-icons/fa";
 export default function Home() {
   return (
     <div className=" max-w-[1400px] mx-auto ">
