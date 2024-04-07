@@ -4,6 +4,7 @@ import PayMethods from "@/components/PayMethods/PayMethods";
 import WhyPaypal from "@/components/WhyPaypal/WhyPaypal";
 import ApprovalCard from "@/components/ApprovalCard/ApprovalCard";
 import Orchestration from "@/components/Orchestration/Orchestration";
+import ManageRisk from "@/components/ManageRisk/ManageRisk";
 export default function Home() {
   return (
     <div className=" max-w-[1400px] mx-auto ">
@@ -21,6 +22,9 @@ export default function Home() {
         <WhyPaypal />
         <Orchestration />
         <WhyPaypal />
+      </div>
+      <div className="mt-20">
+        <ManageRisk />
       </div>
     </div>
   );
